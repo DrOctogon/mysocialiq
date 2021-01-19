@@ -39,7 +39,7 @@ export const navbar = {
   ],
 };
 
-/* ------------------------------------ */
+/* ------------------------------------ */  
 // client data section
 /* ------------------------------------ */
 import client1 from 'common/assets/image/appModern/company1.png';

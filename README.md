@@ -1,4 +1,6 @@
-# Installation
+#My Social IQ
+
+## Installation
 
 After downloading the file from Themeforest, You will find SuperProps.zip file. Then unzip the SuperProps.zip and run the following commands on SuperProps folder to get started with the project.
 
@@ -20,33 +22,6 @@ yarn next-dev
 
 NextJs Server will start in `localhost:3000`
 
-Available routes are below
-
-```
-/app
-/appmodern
-/appclassic
-/appminimal
-/saas
-/saasmodern
-/saasclassic
-/saasminimal
-/saasminimal2
-/hosting
-/hostingmodern
-/portfolio
-/ride
-/crypto
-/cryptomodern
-/charity
-/interior
-/agency
-/agencymodern
-/agencydigital
-
-
-...
-```
 
 # Folder Structure
 
@@ -68,28 +43,6 @@ Available routes are below
 
 # Development
 
-Follow the below procedure to go with the development process.
-
-## GatsbyJs
-
-If you want to develop only for gatsbyjs then you don't need the `/landing` folder which contains only nextjs related code. You can delete `/landing` folder.
-
-For any specific template like the template under `/app` route. If you want to use this template only, then you have to follow below procedure.
-
-1. Go to `/landing-gatsby/src/pages/`
-2. now copy all the content from `app.js`
-3. Paste all the content in `/landing-gatsby/src/pages/index.js`
-
-Now for cleaning the unused code in your project follow the below procedure.
-
-1. Now you can delete all other pages except `404.js`. That mean in your `/pages` folder you will have two files `index.js` and `404.js`
-2. From `/landing-gatsby/src/containers/` folder you can delete all other folder except `App` and `Error`
-3. From `/common/assets/image/` folder you can delete all other folder except `app`. Do not delete any files from there like `404.svg`, `error.svg` etc.
-4. From `/common/data/` folder you can delete all other folder except `App`.
-5. From `/common/theme/` folder you can delete all other folder except `app`. Do not delete the `index.js` file.
-
-Now if you start your `gatsbyjs` server with `yarn gatsby-dev` then you will get your server running on `localhost:8000`
-
 ## NextJs
 
 If you want to develop only for `nextjs` then then you don't need the `/landing-gatsby` folder. You can delete the folder.
@@ -100,21 +53,6 @@ For any specific template like the template under `/app` route. If you want to u
 2. now copy all the content from `app.js`
 3. Paste all the content in `/landing/pages/index.js`
 
-Now for cleaning the unused code in your project follow the below procedure.
-
-1. Now you can delete all other pages except `_app.js`, `_documents.js` and `_error.js`. That mean in your `/pages` folder you will have four files `index.js`, `_app.js`, `_documents.js` and `error.js`
-2. From `/landing/containers/` folder you can delete all other folder except `App` and `Error`
-3. From `/common/assets/image/` folder you can delete all other folder except `app`. Do not delete any files from there like `404.svg`, `error.svg` etc.
-4. From `/common/data/` folder you can delete all other folder except `App`.
-5. From `/common/theme/` folder you can delete all other folder except `app`. Do not delete the `index.js` file.
-
-To start the server for `nextjs` you have to run `yarn nextjs-dev` and the server will start on `locahost:3000`.
-
-# Explaining Containers
-
-In the `containers` directory you will get folder for our every template. If you want to use App template. Then in the `App` directory you will get folders containing different section of the template like `Banner`, `Footer`, `Testimonial`, `Navbar` etc.
-
-All of these containers contains regular reactjs code.
 
 # Deployment
 
@@ -154,94 +92,4 @@ If you want to host the static html version of your nextjs project then run the 
 yarn next-export
 ```
 
-## Running with Docker
 
-To run the SuperProps Next.js app in docker
-
-```
-yarn next-export
-docker build -t superprops/landing-next -f ./packages/landing/Dockerfile .
-docker run -it -p 3000:3000 superprops/landing-next:latest
-Open http://localhost:3000
-```
-
-To run the SuperProps Gatsby.js app in docker
-
-```
-yarn gatsby-build
-docker build -t superprops/landing-gatsby -f ./packages/landing-gatsby/Dockerfile .
-docker run -it -p 8000:8000 superprops/landing-gatsby:latest
-open http://localhost:8000
-```
-
-# Deployment Support
-
-## vercel.com
-
-### GatsbyJs
-
-We have given vercel.com deployment by default. For hosting the project in vercel.com first you have to go within the `packages/landing-gatsby`
-
-Now run below command .
-
-```
-vercel
-```
-
-### NextJs
-
-For deploying nextjs on vercel.com go to `packages/landing`. Now run below command .
-
-```
-vercel
-```
-
-> **Make sure you have `vercel-cli` installed in your system.**
-
-## Firebase
-
-### NextJs
-
-Add your project ID at `packages/landing/.firebaserc`
-
-Then, To deploy to your site, run the following command from the `packages/landing` directory.
-
-```
-yarn deploy
-```
-
-### GatsbyJs
-
-To deploy to your site, run the following command from the `packages/landing-gatsby` directory.
-
-```
-yarn deploy
-```
-
-> **Make sure you have `firebase-tools` installed on your machine.**
-
-## Netlify
-
-At first, open an account on netlify and go to `sites` tab.
-
-### NextJs
-
-Run the below command to make the project netlify deploy ready from `packages/landing`.
-
-```
-yarn export
-```
-
-After running the above command go to `/landing` folder. You will find a `out` folder there. Drag
-and drop this `out` folder on netlify `sites` tab. Now after finishing the upload you are ready to go.
-
-### GatsbyJs
-
-If you want to host the `gatsbyjs` project, go to your command line and run this command on `packages/landing-gatsby` directory.
-
-```
-yarn build
-```
-
-After running above command go to `landing-gatsby` folder. You will find a `public` folder
-there. Drag and drop this `public` folder on netlify `sites` tab.

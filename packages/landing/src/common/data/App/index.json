@@ -3,55 +3,55 @@
     {
       "id": 1,
       "icon": "flaticon-atom",
-      "title": "App Development",
-      "description": "If you have to develop a mobile app, this is the most appropriate time."
+      "title": "Awareness",
+      "description": "Platforms have the power. Take back control."
     },
     {
       "id": 2,
       "icon": "flaticon-trophy",
-      "title": "UI/UX Design",
-      "description": "We provide the best UI/UX Design by following the latest trends of the market."
+      "title": "Awareness",
+      "description": "How are you ranked by data mining companies"
     },
     {
       "id": 3,
       "icon": "flaticon-conversation",
-      "title": "Wireframing Task",
-      "description": " We respect our customer opinions and deals with them. "
+      "title": "Protection",
+      "description": "Prevent online harassment before it starts"
     }
   ],
   "featuresSliderTwo": [
     {
       "id": 1,
       "image": "../../assets/image/app/6.svg",
-      "title": "Super Performance"
+      "title": " Super Charge Your Understanding "
     },
     {
       "id": 2,
       "image": "../../assets/image/app/1.svg",
-      "title": "Search Optimization"
+      "title": " Learn more about your online social circles "
     },
     {
       "id": 3,
       "image": "../../assets/image/app/2.svg",
-      "title": "Customer Support"
+      "title": " Asses your communication sentiment"
     },
 
     {
       "id": 4,
       "image": "../../assets/image/app/3.svg",
-      "title": "100% Response Time"
+      "title": " 24/7 Monitoring of your social presence "
     },
 
     {
       "id": 5,
       "image": "../../assets/image/app/4.svg",
-      "title": "Maintaining Milestones"
+      "title": " Threat assement "
     },
 
     {
       "id": 6,
       "image": "../../assets/image/app/5.svg",
-      "title": "Organised Code"
+      "title": " All of your data "
     }
   ],
   "menuWidget": [
@@ -177,7 +177,7 @@
   ],
   "menuItems": [
     {
-      "label": "Our Services",
+      "label": "App Benefits",
       "path": "#services",
       "offset": "100"
     },

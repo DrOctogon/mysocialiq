@@ -3,22 +3,22 @@ const data = {
     {
       id: 1,
       icon: 'flaticon-atom',
-      title: 'App Development',
+      title: 'Awareness',
       description:
-        'If you have to develop a mobile app, this is the most appropriate time. ',
+        'Understand what companies have collect on you',
     },
     {
       id: 2,
       icon: 'flaticon-trophy',
-      title: 'UI/UX Design',
+      title: 'Build Trust',
       description:
-        'We provide the best UI/UX Design by following the latest trends of the market.',
+        'Platforms have the power. Take back control.',
     },
     {
       id: 3,
       icon: 'flaticon-conversation',
-      title: 'Wireframing Task',
-      description: ' We respect our customer opinions and deals with them. ',
+      title: 'Protect Yourself',
+      description: 'The internet can be a dangerous place, let us help you.',
     },
   ],
 };

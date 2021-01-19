@@ -10,12 +10,12 @@ const data = {
     {
       id: 1,
       image: Icon1,
-      title: 'Super Performance',
+      title: 'Social IQ',
     },
     {
       id: 2,
       image: Icon2,
-      title: 'Search Optimization',
+      title: 'Treat Dedection',
     },
     {
       id: 3,
