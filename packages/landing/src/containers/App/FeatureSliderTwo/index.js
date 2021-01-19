@@ -78,7 +78,7 @@ FeatureSection.defaultProps = {
   },
   // section title default style
   sectionTitle: {
-    content: 'Key Features Of our App',
+    content: 'App Features',
     textAlign: 'center',
     fontSize: ['20px', '24px', '24px', '24px', '30px'],
     fontWeight: '400',

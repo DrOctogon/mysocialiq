@@ -61,7 +61,7 @@ const DomainSection = ({
             <EmailInputWrapper>
               <Input
                 inputType="email"
-                placeholder="Enter Email Address"
+                placeholder="Sign up for updates"
                 iconPosition="left"
                 aria-label="email"
               />
@@ -134,7 +134,7 @@ DomainSection.defaultProps = {
     ml: 'auto',
   },
   title: {
-    content: 'Essential Mobile  App Landing for  Workspaces',
+    content: 'Take back control of your online presence',
     fontSize: ['26px', '30px', '30px', '48px', '60px'],
     fontWeight: '300',
     color: '#0f2137',
@@ -143,14 +143,14 @@ DomainSection.defaultProps = {
   },
   description: {
     content:
-      'A mobile app landing page is important and  essential for right amount of information about your product. Start increasing your user base upon the launch of your product.',
+      'A simple app to help measure, analyze and understand what data has been collected by tech companies.',
     fontSize: '16px',
     color: '#343d48',
     lineHeight: '33px',
     mb: '10px',
   },
   button: {
-    title: 'EXPLORE MORE',
+    title: 'DOWNLOAD NOW',
     type: 'button',
     fontSize: '14px',
     fontWeight: '600',
@@ -170,7 +170,7 @@ DomainSection.defaultProps = {
     fontWeight: '500',
   },
   btnStyleTwo: {
-    title: 'WATCH DEMOS',
+    title: 'LEARN MORE',
     type: 'button',
     minWidth: '156px',
     fontSize: '14px',

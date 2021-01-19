@@ -17,7 +17,7 @@ const data = {
     {
       id: 3,
       icon: 'flaticon-conversation',
-      title: 'Protect Yourself',
+      title: 'Protection',
       description: 'The internet can be a dangerous place, let us help you.',
     },
   ],

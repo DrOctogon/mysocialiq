@@ -67,7 +67,7 @@ FeatureSection.defaultProps = {
   },
   // sub section default style
   sectionSubTitle: {
-    content: 'OUR SERVICES',
+    content: 'Our Commitment',
     as: 'span',
     display: 'block',
     fontSize: '14px',
@@ -79,7 +79,7 @@ FeatureSection.defaultProps = {
   },
   // section title default style
   sectionTitle: {
-    content: 'Featured Service that We Provide',
+    content: 'Key Features',
     fontSize: ['20px', '24px', '24px', '24px', '30px'],
     fontWeight: '400',
     color: '#0f2137',
